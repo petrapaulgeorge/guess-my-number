@@ -1,0 +1,47 @@
+body {
+    background-color: #5d51e2;
+    font-family: sans-serif;
+}
+
+#container {
+    background-color: #a79fff;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+#guess-title {
+    color: #ffffff;
+}
+
+#guess-text {
+    color: #ffffff;
+}
+
+#guess-input {
+    background-color: #5d51e2;
+    width: 150px;
+    height: 30px;
+    color: #ffffff;
+    border: #ffffff 1px solid;
+    border-radius: 5px;
+}
+
+#guess-button {
+    width: 110px;
+    height: 34px;
+    transition-duration: 0.4s;;
+    background-color: #5d51e2;
+    color: #ffffff;
+    border: #ffffff 1px solid;
+    border-radius: 50px;
+}
+
+#guess-button:hover {
+    background-color: #a79fff;
+    color: #ffffff;
+}
+
+#guess-message {
+    color: #ffffff;
+}
